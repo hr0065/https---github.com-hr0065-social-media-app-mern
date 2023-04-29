@@ -8,7 +8,7 @@
             width={size}
             height={size}
             alt="user"
-            src={`http://localhost:3001/assets/${image}`}
+            src={`http://social-media-app-mern-production.up.railway.app/assets/${image}`}
         />
         </Box>
     );

@@ -23,7 +23,7 @@
 
     const patchFriend = async () => {
         const response = await fetch(
-        `http://localhost:3001/users/${_id}/${friendId}`,
+        `http://social-media-app-mern-production.up.railway.app/users/${_id}/${friendId}`,
         {
             method: "PATCH",
             headers: {
